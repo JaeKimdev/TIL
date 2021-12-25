@@ -1,0 +1,319 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.background {
+  width: 1004px;
+  height: 936px;
+  display: flex;
+  background-color: #eeeef2;
+}
+
+.leftbox {
+  width: 502px;
+  height: 936px;
+  padding: 70px;
+  box-sizing: border-box;
+}
+
+.rightbox {
+  width: 502px;
+  height: 936px;
+  padding: 70px;
+  box-sizing: border-box;
+}
+
+.inside-background {
+  width: 362px;
+  height: 796px;
+  background-color: white;
+  border-radius: 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 362px;
+  height: 100px;
+  padding: 15px 27px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.musician-info {
+  width: 362px;
+  height: 200px;
+  padding: 15px 27px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.musician-info__photo {
+  width: 98px;
+  height: 98px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.musician-info__name {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.musician-info__genre {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.musician-info__btns {
+  width: 362px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.musician-info__btns1 {
+  width: 122px;
+  height: 45px;
+  border-radius: 25px;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.musician-info__btns2 {
+  width: 122px;
+  height: 45px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.musician-info__btns2 i {
+  color: red;
+}
+
+.musician-info__btns2-text {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.3);
+  margin-left: 3px;
+}
+
+.musician__songlist {
+  width: 362px;
+  height: 300px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.musician__songlist__detail {
+  width: 342px;
+  height: 70px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.02);
+  border-radius: 20px;
+}
+
+.musician__songlist__detail-photo {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.musician__songlist__detail-text {
+  width: 220px;
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+.musician__songlist__detail-text1 {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.musician__songlist__detail-text2 {
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.musician__songlist__detail i {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.miniplayer {
+  width: 332px;
+  height: 72px;
+  margin: 0px 15px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+.miniplayer__text {
+  width: 140px;
+  height: 65px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  box-sizing: border-box;
+}
+
+.miniplayer__text1 {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.miniplayer__text2 {
+  margin-top: 3px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.miniplayer__btn {
+  width: 100px;
+  height: 65px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  box-sizing: border-box;
+}
+
+.player-info {
+  width: 310px;
+  height: 440px;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.player-info__photo {
+  width: 265px;
+  height: 265px;
+  margin-top: 30px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.player-info__text {
+  width: 266px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.player-info__title {
+  margin-top: 3px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.player-info__name {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.player__timeline {
+  width: 310px;
+  height: 90px;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.player__timeline__time {
+  width: 310px;
+  height: 35px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: small;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.player__timeline__progressbar__whole {
+  width: 310px;
+  height: 5px;
+  border-radius: 150px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.player__timeline__progressbar__past {
+  width: 220px;
+  height: 5px;
+  border-radius: 150px;
+  background-color: black;
+  position: relative;
+  top: -5px;
+}
+
+.player__timeline__progressbar__circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: black;
+  position: relative;
+  top: -13px;
+  right: -215px;
+}
+
+.player_btns {
+  width: 310px;
+  height: 130px;
+  margin-left: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#player_btns1,
+#player_btns5 {
+  color: rgba(0, 0, 0, 0.2);
+}
