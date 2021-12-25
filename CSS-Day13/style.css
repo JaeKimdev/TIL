@@ -58,6 +58,7 @@ body {
   width: 98px;
   height: 98px;
   border-radius: 50%;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
 }
 
 .musician-info__name {
@@ -216,4 +217,103 @@ body {
   align-items: center;
   color: white;
   box-sizing: border-box;
+}
+
+.player-info {
+  width: 310px;
+  height: 440px;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.player-info__photo {
+  width: 265px;
+  height: 265px;
+  margin-top: 30px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.player-info__text {
+  width: 266px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.player-info__title {
+  margin-top: 3px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.player-info__name {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.player__timeline {
+  width: 310px;
+  height: 90px;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.player__timeline__time {
+  width: 310px;
+  height: 35px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: small;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.player__timeline__progressbar__whole {
+  width: 310px;
+  height: 5px;
+  border-radius: 150px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.player__timeline__progressbar__past {
+  width: 220px;
+  height: 5px;
+  border-radius: 150px;
+  background-color: black;
+  position: relative;
+  top: -5px;
+}
+
+.player__timeline__progressbar__circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: black;
+  position: relative;
+  top: -13px;
+  right: -215px;
+}
+
+.player_btns {
+  width: 310px;
+  height: 130px;
+  margin-left: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#player_btns1,
+#player_btns5 {
+  color: rgba(0, 0, 0, 0.2);
 }
