@@ -27,5 +27,5 @@ $ git reset --hard HEAD^<br>
   $ git push origin main --force
   -> Forcefully updates what you did
 
-Soft reset
+Soft reset<br>
 $ git reset HEAD^
