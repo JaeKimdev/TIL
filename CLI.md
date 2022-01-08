@@ -20,27 +20,30 @@ By default, `SOURCE CONTROL` menu on VSCode will just give us the changes on the
   -- These are the ones that you're going to commit.
 
 How we get our commit history of files:
-$ git log
+
+    $ git log
 
 - `HEAD -> main`: HEAD master is your computer
 - `origin/main`: origin is your GitHub repo up there on the cloud
 
-$ git push origin main
+      $ git push origin main
 
 - On the console, it's going to upload.
 
-$ git log
+      $ git log
+
 => Type "q"
 
-$ git add chapter_two.txt
+    $ git add chapter_two.txt
 
 - Adds `chapter_two.txt` to the staging area
 
 Sometimes you want to add all the files:
-$ git add .
+
+    $ git add .
 
 - `.` means this directory. (All the files in this directory)
 
-$ git commit -m "Commit message"
+      $ git commit -m "Commit message"
 
-$ git commit --help
+      $ git commit --help
