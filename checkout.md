@@ -13,13 +13,13 @@ Go to the top again:
 $ git checkout main
 
 Reset: Dispose completely of a certain commit
-$ git reset --hard HEAD^
--> `--hard`: Delete the commit
--> `HEAD^`: How far a head
--- `HEAD`: Current head
--- `HEAD^`: 1 commit back from head
--- `HEAD^^`: 2 commits back from head
--- `HEAD^^^`: 3 commits back from head
+$ git reset --hard HEAD^<br>
+-> `--hard`: Delete the commit<br>
+-> `HEAD^`: How far a head<br><br>
+-- `HEAD`: Current head<br>
+-- `HEAD^`: 1 commit back from head<br>
+-- `HEAD^^`: 2 commits back from head<br>
+-- `HEAD^^^`: 3 commits back from head<br>
 
 => We have a problem: Our remote origin has a change that we don't want
 
