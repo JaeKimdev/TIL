@@ -9,3 +9,4 @@ print(int(A)+int(B))	# int() 함수로 A와 B를 정수로 변환 하고 두수�
 # same as below
 # A, B = map(int, input().split())
 # print(A+B)
+
