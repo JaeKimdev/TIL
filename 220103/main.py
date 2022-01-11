@@ -13,4 +13,4 @@ def report():
     word = request.args.get("word")
     return render_template("report.html", searchingBy=word)
 
-app.run(host="0.0.0.0") 
+app.run(host="0.0.0.0")
