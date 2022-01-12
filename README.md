@@ -1,2 +1,0 @@
-# algorithm
-Problem Solving - algorithm
