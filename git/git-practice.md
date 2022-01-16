@@ -32,13 +32,14 @@ Make 3 files in a folder
 
 Move to a file to staging area
 
-<img1>
+<img width="463" alt="1" src="https://user-images.githubusercontent.com/84453688/149659315-228032b4-18ff-4fa2-b6b0-e89ada4e74bf.png">
 
 `git add ` \*.txt
 
 move all .txt file to staging area
 
-<img2>
+<img width="529" alt="2" src="https://user-images.githubusercontent.com/84453688/149659326-5000c91a-271a-4a83-ac1b-6af6f24c50e7.png">
+
 
 `echo Jae >> a.txt`
 
@@ -81,7 +82,7 @@ Stages everything, but does not remove files that have been deleted from the dis
 
 ## - git status
 
-<img3>
+<img width="515" alt="3" src="https://user-images.githubusercontent.com/84453688/149659332-050b8480-6aad-49a9-8d1f-f5a17eeabe83.png">
 
 ## - Compare files (git diff)
 
