@@ -1,16 +1,19 @@
 ## - Data Type
 
 1. Number
-  1) 정수(Integer) // 1, 2, 3, 4 ...
-  2) 소수(Float) // 1.555, 2.545345 ...
+
+1) 정수(Integer) // 1, 2, 3, 4 ...
+2) 소수(Float) // 1.555, 2.545345 ...
+
+
     * Number타입은 서로 연산기호를 이용하여 계산할 수 있다.
 
-2. String
-: 처음부터 끝까지 문자(Text)로 구성되어 있다는 의미
+2.  String
+    : 처음부터 끝까지 문자(Text)로 구성되어 있다는 의미
 
-    "Hello," + " My name is Nico" // Hello, My name is Nico
+        "Hello," + " My name is Nico" // Hello, My name is Nico
 
-* String타입은 ""을 이용하여 입력하고 String타입의 합은 두개를 합쳐서 출력한다.
+- String타입은 ""을 이용하여 입력하고 String타입의 합은 두개를 합쳐서 출력한다.
 
 ## - const → 변수 선언을 통해 코드를 간결하게(use camelCase)
 
@@ -24,6 +27,7 @@ console.log(a / b);
 ```
 
 변수만들때 let, const, var차이
+
 - `let` 재선언 금지, 재할당 가능 CANNOT be re-declared and updated
 - `const` 재선언 금지, 재할당 금지 CANNOT be re-declared and CANNOT updated
 - `var` 재선언 가능, 재할당 가능 can be re-declared and updated
@@ -85,16 +89,18 @@ console.log(days Of Week[4]) //may be used to output the fifth value.
 if you want to add one more value to the variable days Of Week, you can do it as follows.
 
 ```js
-daysOfWeek.push ("holiday") //push is a function of adding.
+daysOfWeek.push("holiday"); //push is a function of adding.
 ```
+
 ## - Objects
+
 The object stores data with property and uses {}.
 
 ```js
 const player = {
-name : tomato,
-color : red,
-food : true,
+  name: tomato,
+  color: red,
+  food: true,
 };
 
 console.log(player);
@@ -128,3 +134,45 @@ player.koreanName = "토마토";
 --> {name: "tomato", color: "blue", food: true, koreaName: "토마토"}
 ```
 
+## - Function
+
+펑션의 괄호 안의 매개변수에서 아규먼트를 받아들일 수 있다.
+
+```js
+function sayHello(nameOfPerson) {
+  console.log(nameOfPerson);
+}
+
+sayHello("nico");
+sayHello("dal");
+sayHello("lynn"); // nameOfPerson은 "nico" "dal" "lynn" 을 받았다고 생각하면 됨.
+```
+
+You can input argument more than one
+
+```js
+function sayHello(nameOfPerson, age) {
+  console.log(nameOfPerson);
+}
+
+sayHello("nico", 12);
+sayHello("dal", 20);
+sayHello("lynn", 23); // sayHello function의 매개변수 2개는 아래 2개의 argument를 받는 중임.
+```
+
+function의 값은 function 안에서만 존재한다.
+
+오브젝트 안에서 매개변수가 아규먼트를 받는 방식
+
+```js
+const player = {
+  name: function (Name) {
+    console.log("Your Name is " + Name + " 입니다.");
+  },
+  sayHello: function (Age) {
+    console.log("Your age is " + Age + " 입니다.");
+  },
+};
+
+player.sayHello(14);
+```
