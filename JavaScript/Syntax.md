@@ -5,8 +5,7 @@
 1) 정수(Integer) // 1, 2, 3, 4 ...
 2) 소수(Float) // 1.555, 2.545345 ...
 
-
-    * Number타입은 서로 연산기호를 이용하여 계산할 수 있다.
+   - Number타입은 서로 연산기호를 이용하여 계산할 수 있다.
 
 2.  String
     : 처음부터 끝까지 문자(Text)로 구성되어 있다는 의미
@@ -175,4 +174,44 @@ const player = {
 };
 
 player.sayHello(14);
+```
+
+## - Conditionals
+
+`prompt`
+
+The prompt() method displays a dialog box that prompts the user for input.
+
+`parseInt`
+
+The parseInt() function parses a string argument and returns an integer of the specified radix.
+
+Ref: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt
+
+```js
+const age = parseInt(prompt("Please write your age"));
+console.log(age);
+```
+
+- Number() vs parseInt()
+
+  ```js
+  const A = Number("123asd123");
+  console.log(A); //NaN
+
+  const B = parseInt("123 asd123");
+  console.log(B); //123
+  ```
+
+- IF
+
+```js
+const age= parseInt(prompt (“How old are you?”));
+console.log(isNaN(age));
+
+if(isNaN(age)){
+  console.log(“please wirte a number”);
+} else{
+  console.log(“Thank you for writing your age”);
+}
 ```
