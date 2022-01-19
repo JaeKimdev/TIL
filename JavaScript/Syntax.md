@@ -215,3 +215,29 @@ if(isNaN(age)){
   console.log(“Thank you for writing your age”);
 }
 ```
+
+&& : and
+
+|| : or
+<br><br>
+
+- Strict equality (===)
+
+checks whether its two operands are equal, returning a Boolean result.
+
+<br>
+
+ex>
+
+```js
+0 == false ---> true  //0 == false(deafult:0) true(same)
+0 === false ---> false //0(number) === false(boolean) false(difference)
+```
+
+Ref: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality
+
+- = is used for assigning values to a variable in JavaScript.
+
+- == is used for comparison between two variables irrespective of the datatype of variable.
+
+- === is used for comparision between two variables but this will check strict type, which means it will check datatype and compare two values.
