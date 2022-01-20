@@ -241,3 +241,39 @@ Ref: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators
 - == is used for comparison between two variables irrespective of the datatype of variable.
 
 - === is used for comparision between two variables but this will check strict type, which means it will check datatype and compare two values.
+
+<br>
+
+# JavaScript on the browser
+
+## # Document object
+
+If you enter a document in the console, you can get the HTML you created.
+
+The document is an object that exists in the browser.
+
+Calling a `console.dir(document)` to the console is the same as the title defined by HTML.
+
+It is possible to obtain a title from an HTML document object in JS.
+
+JS can set to access and read HTML.
+
+You can also change html through js like, `document.title = "Hi";`
+
+When you call `document.body`, you only bring in body items.
+
+Ref: Console Object- https://jongbeom-dev.tistory.com/115
+
+## # HTML in JS
+
+`document.getElementById(“title”)` can call id in HTML
+
+JS shows the object that html expresses then we can change any element.
+
+`title.innerText = "Got you!";` change innerText
+
+```js
+console.log(title.id); //take id
+
+console.log(title.className); //take className
+```
