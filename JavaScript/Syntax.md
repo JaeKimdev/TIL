@@ -277,3 +277,72 @@ console.log(title.id); //take id
 
 console.log(title.className); //take className
 ```
+
+- `getElementByClassName()` : Using when importing many elements (return array)
+- `getElementsByTagName()` : name can be assigned (return array)
+
+When you want to select a sub-tag of a tag with Id, the above method has limitations. you can use "querySelector/querySelectorAll".
+
+```js
+const title = document.querySelector(".helloes h1:first-child");
+```
+
+`.hellos h1` - You can select the desired element like a css selector.
+
+- However, if there are several h1 tags with a class called hello, a `querySelectorAll` must be used.
+
+If you want to find id,
+
+use `document.querySelector("#id")` = `document.getElementById("id")`
+
+- But, `getElementById` can't take sub element as like `(.hello h1)`
+
+## # Events
+
+If you want to see the inside of the element, `console.dir()`
+
+Basically, it shows the elements marked as objects (all of them are jobjects)
+
+The one with "on" in the beginning is an event.
+
+- eventListener
+
+  Ref: https://developer.mozilla.org/en-US/docs/Web/API/EventListener
+
+```js
+const title = document.querySelector("div.hello:first-child h1");
+
+function handleTitleClick() {
+  title.style.color = "blue";
+}
+
+title.addEventListener("click", handleTitleClick);
+
+//click하면 handleTitleClick이라는 function이 동작하길 원함
+//그래서 handleTitleClick 함수에 () 를 안넣고 js파일에 넘겨주어 작동하도록 함
+```
+
+```js
+//example code > change color randomly when click title
+
+const title = document.querySelector("div h1");
+
+function handleTitleClick(){
+  onst ranColor = ["blue","red","green","yellow","black"];
+
+  let num = Math.floor(Math.random() * ranColor.length);
+  title.style.color = ranColor[num];
+}
+
+title.addEventListener("click",handleTitleClick);
+```
+
+Ref: https://velog.io/@ywoosang/addEventListener-%EC%BD%9C%EB%B0%B1%ED%95%A8%EC%88%98-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0
+
+```js
+  1) title.addEventListener("click", handleTitleClick);
+  // same as below
+  2) title.onclick = handleTitleClick;
+
+// if you use 1) we can use `removeEventListener` to remove but, 2) can't
+```
