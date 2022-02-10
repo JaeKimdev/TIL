@@ -11,7 +11,7 @@
 7. All function handlers must be written inside the `superEventHandler`.
 
 ## Publish
-https://uuhcq.csb.app/
+https://codesandbox.io/s/js-day-04-uuhcq?file=/src/index.js
 
 ## Reference
 
