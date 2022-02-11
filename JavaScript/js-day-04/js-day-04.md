@@ -17,5 +17,7 @@ https://codesandbox.io/s/js-day-04-uuhcq?file=/src/index.js
 
 Event Reference - https://developer.mozilla.org/en-US/docs/Web/Events
 
+Add EventListener - https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+
 window : An object representing a window in which the script is currently working.
 - https://developer.mozilla.org/en-US/docs/Web/API/Window
