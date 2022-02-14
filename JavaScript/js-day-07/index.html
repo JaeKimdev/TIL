@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vanilla Challenge</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1>Random Number Game</h1>
+    <div class="content">
+      <lable class="content_title" for="content_range-select"
+        >Generate a number between 0 and</lable
+      >
+      <select name="range" class="content_range-select">
+        <option value="">--Please choose range--</option>
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="30">30</option>
+        <option value="40">40</option>
+        <option value="50">50</option>
+      </select>
+      <form class="cotent_form-guess">
+        <label for="content_input-guess">Guess the number</label>
+        <input type="number" class="content_input-guess" />
+        <button class="content_btn-guess">Play!</button>
+      </form>
+      <div class="content_desc-value"></div>
+      <div class="content_result"></div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
