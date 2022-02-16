@@ -78,8 +78,8 @@ when use source code, use grave key(<Code> ` = wave key</Code>) **Not single qou
   
 ## # Hyperlink
 
-1. put link inside < > - ex> <https://github.com/mene79> `https://github.com/mene79`
-2. [link name]< link > ex> [Jae's github](https://github.com/mene79) `[Jae's github](https://github.com/mene79)`
+1. put link inside ( ) - ex> <https://github.com/mene79> `https://github.com/mene79`
+2. [link name] `(`link`)` ex> [Jae's github](https://github.com/mene79) `[Jae's github](https://github.com/mene79)`
 3. you can put description atfer link [Jae's github](https://github.com/mene79, "github") `[Jae's github](https://github.com/mene79, "github")`
 4. if you put description, you can see when you hover mouse cursor on the link.
 
