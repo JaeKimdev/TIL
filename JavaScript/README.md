@@ -2,7 +2,7 @@
 |:--:|:--:|
 |[js-day-04](https://github.com/mene79/TIL/tree/main/JavaScript/js-day-04)|[js-day-05](https://github.com/mene79/TIL/tree/main/JavaScript/js-day-05)|
 
-|![js-day-07](https://user-images.githubusercontent.com/84453688/154213453-63bbdf48-fc7f-49eb-9ca0-a35ea8437458.gif)|![js-day-08](https://user-images.githubusercontent.com/84453688/154213486-ab99069f-4d2a-41bf-8015-119924aff002.gif)|
+|![js-day-07](https://user-images.githubusercontent.com/84453688/154213453-63bbdf48-fc7f-49eb-9ca0-a35ea8437458.gif)|![js-day-08](https://user-images.githubusercontent.com/84453688/154215856-f4618e11-16e1-4e05-b35a-5c974a7e2187.gif)|
 |:--:|:--:|
 |[js-day-07](https://github.com/mene79/TIL/tree/main/JavaScript/js-day-07)|[js-day-08](https://github.com/mene79/TIL/tree/main/JavaScript/js-day-08)|
 
