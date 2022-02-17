@@ -6,8 +6,9 @@
 |:--:|:--:|
 |[js-day-07](https://github.com/mene79/TIL/tree/main/JavaScript/js-day-07)|[js-day-08](https://github.com/mene79/TIL/tree/main/JavaScript/js-day-08)|
 
-
-
+|![js-day-09](https://user-images.githubusercontent.com/84453688/154495932-6caa40e8-112f-4c38-85f4-05438824902f.gif)||
+|:--:|:--:|
+|[js-day-09](https://github.com/mene79/TIL/tree/main/JavaScript/js-day-09)||
 
 
 
