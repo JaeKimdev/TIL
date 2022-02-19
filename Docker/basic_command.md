@@ -121,7 +121,12 @@ $ sudo docker rm [Container id or name]
 
 // Remove all containers
 $ sudo docker rm `docker ps -a -q`
+
+//If you want to remove container without stop you can input
+$ sudo docker rm --force [Container id or name]
 ```
+
+<img width="793" alt="2" src="https://user-images.githubusercontent.com/84453688/154805476-22696512-af23-4aad-8087-d82ea14a4dcc.png">
 
 ## Command without `sudo`
 
@@ -132,3 +137,28 @@ $ sudo usermod -aG docker $USER
 $ sudo usermod -aG docker your-user
 //Give permission to your-user, your-user 사용자에게 권한주기
 ```
+
+## show log
+
+```
+$ sudo docker logs ws2
+```
+## Network
+
+<img width="1249" alt="5" src="https://user-images.githubusercontent.com/84453688/154805739-6bff721b-ac00-438a-956b-37a3788e8fe5.png">
+
+Make web server which named 'ws2' with 8080 port
+
+<img width="593" alt="6" src="https://user-images.githubusercontent.com/84453688/154805822-5944c13d-8fc2-4380-9eb8-758df758984e.png">
+
+<img width="799" alt="7" src="https://user-images.githubusercontent.com/84453688/154805905-d3cf2422-ca86-451f-8f05-0b4d85868489.png">
+
+```
+$ docker run --name ws3 -p 8081:80 httpd
+```
+<img width="799" alt="8" src="https://user-images.githubusercontent.com/84453688/154806018-54c6d4f9-5c08-4e34-9750-247bbb4f518f.png">
+
+<img width="893" alt="9" src="https://user-images.githubusercontent.com/84453688/154806131-fad85219-40f0-47d1-803b-e1ae067ec43e.png">
+
+<img width="1023" alt="10" src="https://user-images.githubusercontent.com/84453688/154806132-b22bcdd4-a419-4a4a-b92c-9516c150b252.png">
+
