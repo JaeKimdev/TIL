@@ -24,7 +24,29 @@ public class Game {
         sumTemp += temp;
         AverageTemp = sumTemp / totalGames;
 
-        //Add playGame code
+        int goalLimit;
+        goalLimit = temp / 5;
+        homeTeam = t1;
+        awayTeam = t2;
+        homeGoal = (int)(Math.random() * goalLimit);
+        awayGoal = (int)(Math.random() * goalLimit);
+        t1.setTotalGoalScore(homeGoal);
+        t1.setTotalGoalAllow(awayGoal);
+        t2.setTotalGoalScore(awayGoal);
+        t2.setTotalGoalAllow(homeGoal);
+
+        if (homeGoal > awayGoal) {
+            t1.setWinTotal(1);
+            t2.setLossTotal(1);
+        }
+        else if (homeGoal == awayGoal) {
+            t1.setTieTotal(1);
+            t2.setTieTotal(1);
+        }
+        else {
+            t1.setLossTotal(1);
+            t2.setWinTotal(1);
+        }
     }
 
     public void displayGame(Game g) {
@@ -35,8 +57,10 @@ public class Game {
         System.out.println();
     }
 
-
-
+    public void displayTempResult() {
+        System.out.println("Hottest Temp: " + hottestTemp + "℃");
+        System.out.println("Avarage Temp: " + AverageTemp + "℃");
+    }
 
     public static int getGameId() {
         return gameId;

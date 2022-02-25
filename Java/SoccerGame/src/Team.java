@@ -13,14 +13,6 @@ public class Team {
         id = teamNum;
     }
 
-    public static int getTeamNum() {
-        return teamNum;
-    }
-
-    public static void setTeamNum(int teamNum) {
-        Team.teamNum = teamNum;
-    }
-
     public void displayTeam(Team t) {
         System.out.println("Team " + t.id + name);
         System.out.println("Wins: " + t.winTotal +", Losses: "
@@ -28,6 +20,14 @@ public class Team {
         System.out.println("Points Scored: " + t.totalGoalScore
                 + ", Point Allowed: " + totalGoalAllow);
         System.out.println();
+    }
+
+    public static int getTeamNum() {
+        return teamNum;
+    }
+
+    public static void setTeamNum(int teamNum) {
+        Team.teamNum = teamNum;
     }
 
     public int getId() {
