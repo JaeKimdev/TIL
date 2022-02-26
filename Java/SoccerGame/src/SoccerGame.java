@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class SoccerGame {
 
@@ -6,6 +7,7 @@ public class SoccerGame {
 
         ArrayList<Team> teams = new ArrayList<>();
         ArrayList<Game> games = new ArrayList<>();
+        Scanner sc = new Scanner(System.in);
 
         Team t1 = new Team("Tigers");
         Team t2 = new Team("Eagles");
@@ -18,13 +20,15 @@ public class SoccerGame {
         Scheduler s = new Scheduler();
 
         //check Weather
-        try {
-            s.checkTemp();
-        } catch (Exception e) {
-            System.out.println("Error! Please input valid temperature");
-        }
+        int temp;
+        System.out.print("What is Today's Temperature(℃)? ");
+        temp = sc.nextInt();
+
+        if  (temp > 5)
 
         //call Schedule method
+
+        s.makeSchedule(teams, games, temp);
 
         // Display Season Result
         System.out.println("###### Result ######");
@@ -34,6 +38,7 @@ public class SoccerGame {
         //Show game result
 
         //Show temp result
+
 
     }
 }

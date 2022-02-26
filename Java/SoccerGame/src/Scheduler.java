@@ -1,17 +1,9 @@
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Scanner;
 
 public class Scheduler {
-    int temp;
-    Scanner sc = new Scanner(System.in);
 
-    public void checkTemp() {
-        System.out.print("What is Today's Temperature(℃)? ");
-        temp = sc.nextInt();
-    }
-
-    public void makeScedule(ArrayList<Team> teams, ArrayList<Game> games, int temp) {
+    public void makeSchedule(ArrayList<Team> teams, ArrayList<Game> games, int temp) {
         Game g1 = new Game();
         Game g2 = new Game();
         Collections.shuffle(teams);
