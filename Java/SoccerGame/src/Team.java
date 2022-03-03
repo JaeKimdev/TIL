@@ -11,10 +11,11 @@ public class Team {
     public Team (String name) {
         teamNum++;
         id = teamNum;
+        this.name = name;
     }
 
     public void displayTeam(Team t) {
-        System.out.println("Team " + t.id + name);
+        System.out.println("Team " + t.id + " " + name);
         System.out.println("Wins: " + t.winTotal +", Losses: "
                 + t.lossTotal + ", Ties: " + t.tieTotal);
         System.out.println("Points Scored: " + t.totalGoalScore

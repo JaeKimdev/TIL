@@ -1,15 +1,15 @@
 public class Game {
-    private int id = 0;
+    private int gameId;
     private int temp;
     private Team homeTeam;
     private Team awayTeam;
     private int homeGoal;
     private int awayGoal;
-    private int totalGames;
-    private int sumTemp;
-    private int hottestTemp;
-    private double AverageTemp;
-    private static int gameId;
+    private static int id;
+    private static int totalGames;
+    private static int sumTemp;
+    private static int hottestTemp;
+    private static double AverageTemp;
 
     public Game() {
         id++;
@@ -18,12 +18,14 @@ public class Game {
 
     public void playGame(Team t1, Team t2, int temp) {
         totalGames++;
+        this.temp = temp;
         if (temp > hottestTemp) {
             hottestTemp = temp;
         }
         sumTemp += temp;
-        AverageTemp = sumTemp / totalGames;
+        AverageTemp = sumTemp / (totalGames);
 
+        //Game Match
         int goalLimit;
         goalLimit = temp / 5;
         homeTeam = t1;
@@ -50,24 +52,24 @@ public class Game {
     }
 
     public void displayGame(Game g) {
-        System.out.println("Game #" + g.id);
+        System.out.println("Game #" + g.gameId);
         System.out.println("Temperature: " +g.temp);
-        System.out.println("Home Team: " + g.homeTeam.getId() + ", Goals: " + g.homeGoal);
-        System.out.println("Away Team: " + g.awayTeam.getId() + ", Goals: " + g.awayGoal);
+        System.out.println("Home Team: " + g.getHomeTeam().getId() + ", Goals: " + g.homeGoal);
+        System.out.println("Away Team: " + g.getAwayTeam().getId() + ", Goals: " + g.awayGoal);
         System.out.println();
     }
 
     public void displayTempResult() {
         System.out.println("Hottest Temp: " + hottestTemp + "℃");
-        System.out.println("Avarage Temp: " + AverageTemp + "℃");
+        System.out.println("Average Temp: " + AverageTemp + "℃");
     }
 
     public static int getGameId() {
-        return gameId;
+        return id;
     }
 
     public static void setGameId(int gameId) {
-        Game.gameId = gameId;
+        Game.id = gameId;
     }
 
 
