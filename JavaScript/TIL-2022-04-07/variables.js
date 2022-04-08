@@ -3,7 +3,7 @@
 // use this for Vanila JavaScript
 `use strict`;
 
-// 2. Variable
+// 2. Variable, rw(read / write)
 // let (added in ES 6)
 let globalName = "global name";
 {
@@ -27,13 +27,19 @@ console.log(globalName);
 }
 console.log(age);
 
-// 3. Constants
+// 3. Constant r(read only)
+// use const whenever possible
+//only use let if variable needs to change
+
+const daysInWeek = 7;
+const maxNumber = 5;
+
+// Immutable data types: primitive data types, frozen objects, (i.e. object.freeze())
+// Mutable data types: all objects by default are mutable in JS
 // favor immutable data type always for a few reasons
 // - security
 // - thread safty
 // - reduce human mistakes
-const daysInWeek = 7;
-const maxNumber = 5;
 
 // 4. Variable types
 // primitive types (single item) : string, number, boolean, null, undefined, symbol
@@ -76,3 +82,28 @@ console.log(`value: ${nothing}, type: ${typeof nothing}`);
 // undefined
 let x;
 console.log(`value: ${x}, type: ${typeof x}`);
+
+// symbol, create unique identifier for object
+const symbol1 = Symbol("id");
+const symbol2 = Symbol("id");
+console.log(symbol1 === symbol2);
+const gSymbol1 = Symbol.for("id");
+const gSymbol2 = Symbol.for("id");
+console.log(gSymbol1 === gSymbol2); // true
+console.log(`value: ${symbol1.description}, type: ${typeof symbol1}`);
+
+// object, real-life object, data structure
+const jae = { name: "Jae", age: 20 };
+jae.age = 21;
+
+// 5. Dynamic typing: dynamically typed language
+let text = "hello";
+console.log(text.charAt(0)); // h
+console.log(`value: ${text}, type: ${typeof text}`);
+text = 1;
+console.log(`value: ${text}, type: ${typeof text}`);
+text = "7" + 5;
+console.log(`value: ${text}, type: ${typeof text}`);
+text = "8" / "2";
+console.log(`value: ${text}, type: ${typeof text}`);
+// console.log(text.charAt(0)); // Error!
