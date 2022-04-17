@@ -129,13 +129,13 @@ console.log(user5);
 // Another assign Example
 const fruit1 = { color: "red" };
 const fruit2 = { color: "blue", size: "big" };
-// fruit1, 2 를 거치면서 뒤에갈수록 계속 앞에 덮어씌운다.
+// fruit1, 2를 거치면서 뒤의 값을 계속 앞에 덮어씌운다.
 const mixed = Object.assign({}, fruit1, fruit2);
 console.log(mixed.color); // blue
 console.log(mixed.size); // big
 
 const fruit3 = { color: "black", size: "mid" };
-// fruit3, 4 를 거치면서 뒤에갈수록 계속 앞에 덮어씌운다.
+// fruit2, 3을 거치면서 뒤의 값을 계속 앞에 덮어씌운다.
 const mixed_2 = Object.assign({}, fruit2, fruit3);
 console.log(mixed_2.color); // black
 console.log(mixed_2.size); // mid
