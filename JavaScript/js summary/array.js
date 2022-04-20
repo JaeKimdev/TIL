@@ -8,11 +8,11 @@ const arr2 = [1, 2];
 
 // 2. index position
 const fruits = ["apple", "banana"];
-console.log(fruits); // ['apple', 'banana']
-console.log(fruits.length); // 2
-console.log(fruits[0]); // 'apple'
-console.log(fruits[1]); // 'banana'
-console.log(fruits.length - 1); // 'banana'
+console.log(fruits);
+console.log(fruits.length);
+console.log(fruits[0]);
+console.log(fruits[1]);
+console.log(fruits.length - 1);
 
 // 3. Looping over an array
 // a. for loop
@@ -24,7 +24,6 @@ for (let fruit of fruits) {
   console.log(fruit);
 }
 // c. for each
-// array를 입력하면, 입력받은 array를 callback function에 넣어 사용가능
 fruits.forEach(function (value, index) {
   console.log(`index : ${index}, value : ${value}`);
 });
@@ -35,54 +34,53 @@ fruits.forEach((value, index) =>
 
 // 4. Addition, Deleltion, Copy
 
-// a. push : add to end
+// push : add an item to the end
 fruits.push("orange", "watermelon");
 console.log(fruits); // [ 'apple', 'banana', 'orange', 'watermelon' ]
-// b. pop : remove item the end, and return pop content
-const result = fruits.pop();
-console.log(fruits); // [ 'apple', 'banana', 'orange' ]
-console.log(result); // 'watermelon'
 
-// c. unshift : add beginning
-fruits.unshift("lemon");
-console.log(fruits); // [ 'lemon', 'apple', 'banana', 'orange' ]
-
-// d. shift : remove beginning
-fruits.shift();
-console.log(fruits); // [ 'apple', 'banana', 'orange' ]
-
-// note!!! shift, unshift : pop과 push보다 엄청 느리다.
-// splice : remove by index position
+// pop : remove an item from the end
+fruits.pop();
+fruits.pop();
 console.log(fruits);
-// (method) Array<string>.splice(start: number, deleteCount?: number): string[] (+1 overload)
-// ?의 의미는 값을 지정해도, 지정 안해도 상관 없다는 의미.
-// 값을 따로 지정 안해주면, 1부터 모두 지워버림.
-// fruits.splice(1);
-// console.log(fruits); // [ 'apple' ]
+
+// unshift : add an item to the beginning
+fruits.unshift("lemon");
+console.log(fruits); // [ 'lemon', 'apple', 'banana']
+
+// shift : remove an item to the beginning
+fruits.shift();
+console.log(fruits); // [ 'apple', 'banana']
+
+// note!!! shift, unshift : much slower than pop, push
+
+// splice : remove an item by index position
+fruits.push("orange", "watermelon");
+console.log(fruits); // ['apple', 'banana', 'orange', 'watermelon']
 fruits.splice(1, 1);
-console.log(fruits); // [ 'apple', 'orange' ]
-// 시작점, 몇개를 지울건지 정해주고, 그 뒤에 데이터를 넣으면 그 사이에 삽입
+console.log(fruits); // ['apple', 'orange', 'watermelon']
 fruits.splice(1, 0, "tomato", "Greek");
-console.log(fruits); // [ 'apple', 'tomato', 'Greek', 'orange' ]
+console.log(fruits); // ['apple', 'tomato', 'Greek', 'orange', 'watermelon']
 
 // conbine two arrays
 const fruits2 = ["pear", "gimbab"];
 const newFruits = fruits.concat(fruits2);
-console.log(newFruits); // [ 'apple', 'tomato', 'Greek', 'orange', 'pear', 'gimbab' ]
+console.log(newFruits); // ['apple', 'tomato', 'Greek', 'orange', 'watermelon', 'pear', 'gimbab']
 
-// 5. searching
-// find index
-// indexOf
-console.log(newFruits);
-console.log(newFruits.indexOf("apple")); // 0
-console.log(newFruits.indexOf("Greek")); // 2
-console.log(newFruits.indexOf("pizza")); // -1
+// 5. Searching
+
+// indexOf : find the index
+console.log(fruits);
+console.log(fruits.indexOf("apple")); // 0
+console.log(fruits.indexOf("Greek")); // 2
+console.log(fruits.indexOf("pizza")); // -1
+
 // includes
-console.log(newFruits.includes("Greek")); // true
-console.log(newFruits.includes("pizza")); // false
+console.log(fruits.includes("Greek")); // true
+console.log(fruits.includes("pizza")); // false
+
 // lastIndexOf
-console.log(newFruits);
-newFruits.push("apple");
-console.log(newFruits);
-console.log(newFruits.indexOf("apple")); // 0
-console.log(newFruits.lastIndexOf("apple")); // 6
+console.log(fruits);
+fruits.push("apple");
+console.log(fruits);
+console.log(fruits.indexOf("apple")); // 0
+console.log(fruits.lastIndexOf("apple")); // 5
