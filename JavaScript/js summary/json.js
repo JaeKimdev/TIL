@@ -14,8 +14,8 @@ const rabbit = {
   color: "white",
   size: null,
   birthDate: new Date(),
-  jump: () => {
-    console.log(`${name} can jump!`);
+  jump: function () {
+    console.log(`${this.name} can jump!`);
   },
 };
 
