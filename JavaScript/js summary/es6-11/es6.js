@@ -105,6 +105,82 @@
   //object merge
   const dog1 = { dog1: "🐶" };
   const dog2 = { dog2: "🐩" };
-  const dogs = { ...dog1, ...dog2 };
+  const dogs = { ...dog1, ...dog2 }; //동일한 키를 가지고 있는 오브젝트인 경우, 마지막 아이가 앞에 있는 녀석에게 값을 덮어씌운다
   console.log(dogs);
+  console.clear();
+
+  /**
+   * Default parameters
+   * https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/Default_parameters
+   */
+  {
+    // Old
+    {
+      function printMessage(message) {
+        if (message == null) {
+          message = "default message";
+        }
+        console.log(message);
+      }
+
+      printMessage("hello");
+      printMessage();
+    }
+
+    // New
+    {
+      function printMessage(message = "default message") {
+        console.log(message);
+      }
+
+      printMessage("hello");
+      printMessage();
+    }
+    console.clear();
+  }
+
+  /**
+   * Ternary Operator
+   * https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
+   */
+  {
+    const isCat = true;
+    // Old
+    {
+      let component;
+      if (isCat) {
+        component = "Cat";
+      } else {
+        component = "Dog";
+      }
+      console.log(component);
+    }
+
+    // New
+    {
+      const component = isCat ? "Cat" : "Dog";
+      console.log(component);
+      console.log(isCat ? "Cat" : "Dog");
+    }
+    console.clear();
+  }
+
+  /**
+   * Template Literals
+   * https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Template_literals
+   */
+  {
+    const weather = "🌤";
+    const temparature = "16°C";
+
+    // Old
+    console.log(
+      "Today weather is " + weather + " and temparature is " + temparature + "."
+    );
+
+    // New
+    console.log(
+      `Today weather is ${weather} and temparature is ${temparature}.`
+    );
+  }
 }
