@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="invoiceDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="Cust_id" />
+    </Key>
+    <Property Name="Cust_id" Type="Int32" Nullable="false" />
+    <Property Name="Cust_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Cust_address" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Cust_city" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Cust_state" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Invoices" Relationship="Self.FK__Invoice__Cust_id__3A81B327" FromRole="Customer" ToRole="Invoice" />
+  </EntityType>
+  <EntityType Name="Invoice">
+    <Key>
+      <PropertyRef Name="Invoice_no" />
+    </Key>
+    <Property Name="Invoice_no" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="Cust_id" Type="Int32" />
+    <Property Name="Order_Total_Price" Type="Double" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK__Invoice__Cust_id__3A81B327" FromRole="Invoice" ToRole="Customer" />
+    <NavigationProperty Name="Order_Item" Relationship="Self.FK__Order_Ite__order__412EB0B6" FromRole="Invoice" ToRole="Order_Item" />
+  </EntityType>
+  <EntityType Name="Item">
+    <Key>
+      <PropertyRef Name="Item_id" />
+    </Key>
+    <Property Name="Item_id" Type="Int32" Nullable="false" />
+    <Property Name="Item_Description" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Item_Price" Type="Double" />
+    <NavigationProperty Name="Order_Item" Relationship="Self.FK__Order_Ite__OI_It__4222D4EF" FromRole="Item" ToRole="Order_Item" />
+  </EntityType>
+  <EntityType Name="Order_Item">
+    <Key>
+      <PropertyRef Name="order_id" />
+      <PropertyRef Name="OI_Item_id" />
+    </Key>
+    <Property Name="order_id" Type="Int32" Nullable="false" />
+    <Property Name="OI_Item_id" Type="Int32" Nullable="false" />
+    <Property Name="Qty" Type="Int32" />
+    <Property Name="ItemTotal" Type="Double" />
+    <NavigationProperty Name="Invoice" Relationship="Self.FK__Order_Ite__order__412EB0B6" FromRole="Order_Item" ToRole="Invoice" />
+    <NavigationProperty Name="Item" Relationship="Self.FK__Order_Ite__OI_It__4222D4EF" FromRole="Order_Item" ToRole="Item" />
+  </EntityType>
+  <Association Name="FK__Invoice__Cust_id__3A81B327">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="Invoice" Type="Self.Invoice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Cust_id" />
+      </Principal>
+      <Dependent Role="Invoice">
+        <PropertyRef Name="Cust_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Order_Ite__order__412EB0B6">
+    <End Role="Invoice" Type="Self.Invoice" Multiplicity="1" />
+    <End Role="Order_Item" Type="Self.Order_Item" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Invoice">
+        <PropertyRef Name="Invoice_no" />
+      </Principal>
+      <Dependent Role="Order_Item">
+        <PropertyRef Name="order_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Order_Ite__OI_It__4222D4EF">
+    <End Role="Item" Type="Self.Item" Multiplicity="1" />
+    <End Role="Order_Item" Type="Self.Order_Item" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Item">
+        <PropertyRef Name="Item_id" />
+      </Principal>
+      <Dependent Role="Order_Item">
+        <PropertyRef Name="OI_Item_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="invoiceDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="Invoices" EntityType="Self.Invoice" />
+    <EntitySet Name="Items" EntityType="Self.Item" />
+    <EntitySet Name="Order_Item" EntityType="Self.Order_Item" />
+    <AssociationSet Name="FK__Invoice__Cust_id__3A81B327" Association="Self.FK__Invoice__Cust_id__3A81B327">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Invoice" EntitySet="Invoices" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Order_Ite__order__412EB0B6" Association="Self.FK__Order_Ite__order__412EB0B6">
+      <End Role="Invoice" EntitySet="Invoices" />
+      <End Role="Order_Item" EntitySet="Order_Item" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Order_Ite__OI_It__4222D4EF" Association="Self.FK__Order_Ite__OI_It__4222D4EF">
+      <End Role="Item" EntitySet="Items" />
+      <End Role="Order_Item" EntitySet="Order_Item" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="invoiceDBModelStoreContainer" CdmEntityContainer="invoiceDBEntities">
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="invoiceDBModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="Cust_id" ColumnName="Cust_id" />
+          <ScalarProperty Name="Cust_name" ColumnName="Cust_name" />
+          <ScalarProperty Name="Cust_address" ColumnName="Cust_address" />
+          <ScalarProperty Name="Cust_city" ColumnName="Cust_city" />
+          <ScalarProperty Name="Cust_state" ColumnName="Cust_state" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Invoices">
+      <EntityTypeMapping TypeName="invoiceDBModel.Invoice">
+        <MappingFragment StoreEntitySet="Invoice">
+          <ScalarProperty Name="Invoice_no" ColumnName="Invoice_no" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Cust_id" ColumnName="Cust_id" />
+          <ScalarProperty Name="Order_Total_Price" ColumnName="Order_Total_Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Items">
+      <EntityTypeMapping TypeName="invoiceDBModel.Item">
+        <MappingFragment StoreEntitySet="Item">
+          <ScalarProperty Name="Item_id" ColumnName="Item_id" />
+          <ScalarProperty Name="Item_Description" ColumnName="Item_Description" />
+          <ScalarProperty Name="Item_Price" ColumnName="Item_Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Order_Item">
+      <EntityTypeMapping TypeName="invoiceDBModel.Order_Item">
+        <MappingFragment StoreEntitySet="Order_Item">
+          <ScalarProperty Name="order_id" ColumnName="order_id" />
+          <ScalarProperty Name="OI_Item_id" ColumnName="OI_Item_id" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="ItemTotal" ColumnName="ItemTotal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

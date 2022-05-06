@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="invoiceDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="Cust_id" />
+    </Key>
+    <Property Name="Cust_id" Type="int" Nullable="false" />
+    <Property Name="Cust_name" Type="varchar" MaxLength="255" />
+    <Property Name="Cust_address" Type="varchar" MaxLength="255" />
+    <Property Name="Cust_city" Type="varchar" MaxLength="100" />
+    <Property Name="Cust_state" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Invoice">
+    <Key>
+      <PropertyRef Name="Invoice_no" />
+    </Key>
+    <Property Name="Invoice_no" Type="int" Nullable="false" />
+    <Property Name="Date" Type="date" />
+    <Property Name="Cust_id" Type="int" />
+    <Property Name="Order_Total_Price" Type="float" />
+  </EntityType>
+  <EntityType Name="Item">
+    <Key>
+      <PropertyRef Name="Item_id" />
+    </Key>
+    <Property Name="Item_id" Type="int" Nullable="false" />
+    <Property Name="Item_Description" Type="varchar" MaxLength="255" />
+    <Property Name="Item_Price" Type="float" />
+  </EntityType>
+  <EntityType Name="Order_Item">
+    <Key>
+      <PropertyRef Name="order_id" />
+      <PropertyRef Name="OI_Item_id" />
+    </Key>
+    <Property Name="order_id" Type="int" Nullable="false" />
+    <Property Name="OI_Item_id" Type="int" Nullable="false" />
+    <Property Name="Qty" Type="int" />
+    <Property Name="ItemTotal" Type="float" />
+  </EntityType>
+  <Association Name="FK__Invoice__Cust_id__3A81B327">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="Invoice" Type="Self.Invoice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Cust_id" />
+      </Principal>
+      <Dependent Role="Invoice">
+        <PropertyRef Name="Cust_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Order_Ite__OI_It__4222D4EF">
+    <End Role="Item" Type="Self.Item" Multiplicity="1" />
+    <End Role="Order_Item" Type="Self.Order_Item" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Item">
+        <PropertyRef Name="Item_id" />
+      </Principal>
+      <Dependent Role="Order_Item">
+        <PropertyRef Name="OI_Item_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Order_Ite__order__412EB0B6">
+    <End Role="Invoice" Type="Self.Invoice" Multiplicity="1" />
+    <End Role="Order_Item" Type="Self.Order_Item" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Invoice">
+        <PropertyRef Name="Invoice_no" />
+      </Principal>
+      <Dependent Role="Order_Item">
+        <PropertyRef Name="order_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="invoiceDBModelStoreContainer">
+    <EntitySet Name="Customer" EntityType="Self.Customer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Invoice" EntityType="Self.Invoice" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Item" EntityType="Self.Item" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Order_Item" EntityType="Self.Order_Item" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Invoice__Cust_id__3A81B327" Association="Self.FK__Invoice__Cust_id__3A81B327">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="Invoice" EntitySet="Invoice" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Order_Ite__OI_It__4222D4EF" Association="Self.FK__Order_Ite__OI_It__4222D4EF">
+      <End Role="Item" EntitySet="Item" />
+      <End Role="Order_Item" EntitySet="Order_Item" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Order_Ite__order__412EB0B6" Association="Self.FK__Order_Ite__order__412EB0B6">
+      <End Role="Invoice" EntitySet="Invoice" />
+      <End Role="Order_Item" EntitySet="Order_Item" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,51 @@
+﻿@model IEnumerable<invoiceDB.Models.Customer>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Cust_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cust_address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cust_city)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cust_state)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cust_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cust_address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cust_city)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cust_state)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Cust_id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Cust_id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Cust_id })
+        </td>
+    </tr>
+}
+
+</table>
