@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c48b1aae976a4ed1a87118f8b5e01f15" Name="Diagram1">
+        <EntityTypeShape EntityType="NFLDBModel.Games" Width="1.5" PointX="3" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NFLDBModel.Ladder" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NFLDBModel.Players" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NFLDBModel.Teams" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
+        <AssociationConnector Association="NFLDBModel.FK__Games__GuestTeam__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="NFLDBModel.FK__Games__HostTeam__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="NFLDBModel.FK__Ladder__TeamID__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="NFLDBModel.FK__Players__TeamID__38996AB5" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

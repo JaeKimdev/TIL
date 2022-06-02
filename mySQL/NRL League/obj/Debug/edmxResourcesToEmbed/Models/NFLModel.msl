@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NFLDBModelStoreContainer" CdmEntityContainer="NFLDBEntities1">
+    <EntitySetMapping Name="Games">
+      <EntityTypeMapping TypeName="NFLDBModel.Games">
+        <MappingFragment StoreEntitySet="Games">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="HostTeam" ColumnName="HostTeam" />
+          <ScalarProperty Name="GuestTeam" ColumnName="GuestTeam" />
+          <ScalarProperty Name="HostTeamScore" ColumnName="HostTeamScore" />
+          <ScalarProperty Name="GuestTeamScore" ColumnName="GuestTeamScore" />
+          <ScalarProperty Name="GameDate" ColumnName="GameDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ladder">
+      <EntityTypeMapping TypeName="NFLDBModel.Ladder">
+        <MappingFragment StoreEntitySet="Ladder">
+          <ScalarProperty Name="TeamID" ColumnName="TeamID" />
+          <ScalarProperty Name="TeamName" ColumnName="TeamName" />
+          <ScalarProperty Name="Rank" ColumnName="Rank" />
+          <ScalarProperty Name="TeamPoint" ColumnName="TeamPoint" />
+          <ScalarProperty Name="Wins" ColumnName="Wins" />
+          <ScalarProperty Name="Drawn" ColumnName="Drawn" />
+          <ScalarProperty Name="Lost" ColumnName="Lost" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Players">
+      <EntityTypeMapping TypeName="NFLDBModel.Players">
+        <MappingFragment StoreEntitySet="Players">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TeamID" ColumnName="TeamID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Position" ColumnName="Position" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Teams">
+      <EntityTypeMapping TypeName="NFLDBModel.Teams">
+        <MappingFragment StoreEntitySet="Teams">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="City" ColumnName="City" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
