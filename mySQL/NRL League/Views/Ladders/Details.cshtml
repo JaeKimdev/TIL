@@ -1,0 +1,66 @@
+﻿@model AT3.Models.Ladder
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Ladder</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Rank)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rank)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TeamPoint)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TeamPoint)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Wins)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Wins)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Drawn)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Drawn)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Lost)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Lost)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Teams.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Teams.Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

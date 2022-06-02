@@ -1,0 +1,58 @@
+﻿@model AT3.Models.Games
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Games</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.HostTeamScore)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HostTeamScore)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GuestTeamScore)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GuestTeamScore)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GameDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GameDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Teams.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Teams.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Teams1.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Teams1.Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
