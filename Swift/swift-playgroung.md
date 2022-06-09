@@ -4,4 +4,4 @@ Learn to Code 1 - Complete
 
 Learn to Code 2 - Learning
 
-<img width="1136" alt="Learn to Code 2" src="https://user-images.githubusercontent.com/84453688/157583161-a28c6794-eeb0-4ae3-af9d-8d068d8dac51.png">
+<img width="1136" alt="Learn to Code 2" src="https://user-images.githubusercontent.com/84453688/172777794-03d3cdbe-8944-4688-90dc-482174854805.png">
