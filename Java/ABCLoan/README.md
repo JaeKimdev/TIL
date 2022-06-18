@@ -5,7 +5,7 @@
 
 ## How to run Stand-Alone Application(Custom JRE)
 
-- Unzip `ABCLoan-StandAlone.zip` file
+- Unzip [`ABCLoan-StandAlone.zip`](https://github.com/JaeKimdev/TIL/blob/main/Java/ABCLoan/ABCLoan-StandAlone.zip) file
 - run `Compile.bat` file
 - run `CreateJAR.bat` file
 - run `CreateJRE.bat` file
