@@ -10,7 +10,7 @@
 
 ```Swift
 for item in items {
-    /* 실행 구문 */
+    /* code */
 }
 ```
 
@@ -18,7 +18,7 @@ for item in items {
 
 ```Swift
 var integers = [1, 2, 3]
-let people = ["yagom": 10, "eric": 15, "mike": 12]
+let people = ["jae": 10, "eric": 15, "mike": 12]
 
 for integer in integers {
     print(integer)
@@ -35,8 +35,8 @@ for (name, age) in people {
 > while 구문의 기본 형태
 
 ```Swift
-while 조건 {
-    /* 실행 구문 */
+while condition {
+    /* code */
 }
 ```
 
@@ -54,8 +54,8 @@ while integers.count > 1 {
 
 ```Swift
 repeat {
-    /* 실행 구문 */
-} while 조건
+    /* code */
+} while condition
 ```
 
 > repeat-while 구문의 사용
