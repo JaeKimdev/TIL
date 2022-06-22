@@ -23,7 +23,7 @@
 - [Swift_basic : var, let](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/02_let_var.md)
 - [Swift_basic : data types](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/03_data_types.md)
 - [Swift_basic : collection type](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/04_collection_types.md)
-- [Swift_basic : function](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/05_fuction.md) ➡️ Question❓
+- [Swift_basic : function](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/05_fuction.md) ➡️ [Question❓](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/function_question.md)
 - [Swift_basic : conditional](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/06_conditional.md)
 - [Swift_basic : loop](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/07_loop.md)
 - [Swift_basic : print()](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/print.md)
