@@ -26,4 +26,4 @@
 - [Swift_basic : function](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/05_fuction.md) ➡️ Question❓
 - [Swift_basic : conditional](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/06_conditional.md)
 - [Swift_basic : loop](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/07_loop.md)
-
+- [Swift_basic : print()](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/print.md)
