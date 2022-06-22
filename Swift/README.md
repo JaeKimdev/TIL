@@ -4,7 +4,7 @@
 - Human is an animal of oblivion, so I quickly forget what I learned today
 - Can quickly remember the contents of what you wrote just by looking at the title.
 
-#### [🏕 Swift Code Starter Camp(5th)](https://www.yagom-academy.kr/camp/code-starter) : 2022.5.30 - 7.22
+#### [🏕 Swift Code Starter Camp(5th)](https://www.yagom-academy.kr/camp/code-starter) : 2022.6.20 - 7.22
 
 ### 📖 Template
 ```
