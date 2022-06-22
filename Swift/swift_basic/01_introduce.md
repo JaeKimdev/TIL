@@ -8,7 +8,7 @@
 
         ex) Person, Point, Week
 
-## # How to pprint consoleLog?
+## # How to print consoleLog?
 
 - print
 
