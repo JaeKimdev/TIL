@@ -16,8 +16,7 @@
 ```
 
 ## Categories
-- 2022-06
-
+- [2022-06](#2022-06)
 
 ### 2022-06
 - [Swift_basic : basic](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/01_introduce.md)
