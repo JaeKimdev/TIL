@@ -115,7 +115,7 @@ class PersonD {
             return nil
         }
 
-        if name.characters.count == 0 {
+        if name.count == 0 {
             return nil
         }
 
