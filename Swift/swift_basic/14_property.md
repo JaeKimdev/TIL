@@ -200,3 +200,29 @@ var c: Int = 100 {
 c = 200
 // 100에서 200로 변경되었습니다
 ```
+
+## # Lazy Stored Property 지연 저장 프로퍼티
+
+```swift
+struct Yagom {
+    var name: String = "야곰"
+    var age: Int = 20
+    var nickName: String = "천재 " + self.name // error: Cannot find 'self' in scope
+}
+```
+
+> 의존적인 값을 할당할 수 있다. - 자신의 프로퍼티를 또 다른 프로퍼티에서 사용 가능  
+> `lazy var`로만 선언 가능 / 이스턴스 초기화가 완료 될 때까지 값이 없을 수도 있기 때문에 `lazy let` 사용불가
+
+```swift
+struct Yagom {
+    var name: String = "야곰"
+    var age: Int = 20
+    lazy var nickName: String = "천재 " + self.name
+}
+
+var yagom = Yagom()
+yagom.name = "야한곰"
+
+print(yagom.nickName) // 천재 야한곰
+```
