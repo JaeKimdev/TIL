@@ -7,6 +7,7 @@
 #### [🏕 Swift Code Starter Camp(5th)](https://www.yagom-academy.kr/camp/code-starter) : 2022.6.20 - 7.22
 - [Week1](https://github.com/JaeKimdev/swift-starter-week1/commits/ss_5_menemene) : [STEP 1](https://github.com/yagom-academy/swift-starter-week1/pull/252) - [STEP 2](https://github.com/yagom-academy/swift-starter-week1/pull/281) - [STEP 3](https://github.com/yagom-academy/swift-starter-week1/pull/304)
 - [Week2](https://github.com/JaeKimdev/swift-starter-week2/commits/ss_5_menemene) : [STEP 1](https://github.com/yagom-academy/swift-starter-week2/pull/269) - [STEP 2](https://github.com/yagom-academy/swift-starter-week2/pull/283) - [STEP 3](https://github.com/yagom-academy/swift-starter-week2/pull/297)
+- [Week3](https://github.com/JaeKimdev/swift-starter-week3/tree/ss_5_menemene) : [STEP 1](https://github.com/yagom-academy/swift-starter-week3/pull/117) - [STEP 2](https://github.com/yagom-academy/swift-starter-week3/pull/123)
 
 ### 📖 Template
 ```
@@ -33,6 +34,11 @@
 
 ### 2022-07
 - [Swift_basic : optional](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/08_%20optional.md)
-- [Swift_basic : struct](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/09_%20struct.md)
-- [Swift_basic : enum](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/11_enum.md)
+- [Swift_basic : Struct](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/09_%20struct.md)
+- [Swift_basic : Enum](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/11_enum.md)
 - [Swift_basic : init, deinit](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/16_init_deinit.md)
+- [Swift_basic : Class](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/10_class.md)
+- [Swift_basic : Struct vs Class](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/12_Struct_vs_Class.md)
+- [Swift_basic : value Reference](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/12_value_reference.md)
+- [Swift_basic : property](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/14_property.md)
+- [Swift_basic : inheritance](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/15_inheritance.md)
