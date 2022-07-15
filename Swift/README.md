@@ -8,6 +8,7 @@
 - [Week1](https://github.com/JaeKimdev/swift-starter-week1/commits/ss_5_menemene) : [STEP 1](https://github.com/yagom-academy/swift-starter-week1/pull/252) - [STEP 2](https://github.com/yagom-academy/swift-starter-week1/pull/281) - [STEP 3](https://github.com/yagom-academy/swift-starter-week1/pull/304)
 - [Week2](https://github.com/JaeKimdev/swift-starter-week2/commits/ss_5_menemene) : [STEP 1](https://github.com/yagom-academy/swift-starter-week2/pull/269) - [STEP 2](https://github.com/yagom-academy/swift-starter-week2/pull/283) - [STEP 3](https://github.com/yagom-academy/swift-starter-week2/pull/297)
 - [Week3](https://github.com/JaeKimdev/swift-starter-week3/tree/ss_5_menemene) : [STEP 1](https://github.com/yagom-academy/swift-starter-week3/pull/117) - [STEP 2](https://github.com/yagom-academy/swift-starter-week3/pull/123)
+- [Week4](https://github.com/JaeKimdev/swift-starter-week4/tree/ss_5_menemene) : [STEP 1](https://github.com/yagom-academy/swift-starter-week4/pull/62) - [STEP 2]
 
 ### 📖 Template
 ```
@@ -15,7 +16,7 @@
 
 # Problem
 
-# Workaround
+# Problem Solving, Workaround
 ```
 
 ## Categories
@@ -42,3 +43,5 @@
 - [Swift_basic : value Reference](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/12_value_reference.md)
 - [Swift_basic : property](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/14_property.md)
 - [Swift_basic : inheritance](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/15_inheritance.md)
+- [Swift_basic : optional chaining](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/17_optional_chaining.md)
+- [Swift_basic : higher order function](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/23_higher_order_function.md)
