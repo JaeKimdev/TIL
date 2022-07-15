@@ -125,3 +125,73 @@ enum Month {
 
 Month.mar.printMessage() // 따스한 봄~
 ```
+
+> Associated Values 연관 값
+
+Enum case를 더 자세히 설명해 주는 추가 정보를 저장할 수 있는 기능.
+
+```Swift
+enum Activity {
+    case swimming
+    case running
+    case talking
+    case singing
+}
+
+// 어디로 달려가는지, 어떤 이야기를 하는지.. 등의 정보를 Enum에 추가할 수 있다.
+
+enum Activity {
+    case swimming
+    case running(destination: String)
+    case talking(topic: String)
+    case singing(volume: Int)
+}
+
+let talking = Activity.talking(topic: "football")
+
+// 또 다른 예제
+
+enum Weather {
+    case sunny
+    case windy(speed: Int)
+    case rainy(chance: Int, amount: Int)
+}
+```
+
+```Swift
+enum MainDish {
+    case pasta(taste: String)
+    case pizza(dough: String, topping: String)
+    case chicken(sauce: Bool)
+    case rice
+}
+
+var dinner: MainDish = MainDish.chicken(sauce: false)
+dinner = .pasta(taste: "크림")
+dinner = .pizza(dough: "씬", topping: "새우")
+dinner = MainDish.rice
+
+// 또는 열거형 안에 열거형을 넣어서 메뉴를 선택하게 할 수도 있다.
+
+enum PastaTaste {
+    case cream, tomato
+}
+
+enum PizzaDough {
+    case cheeseCrust, thin, original
+}
+
+enum PizzaTopping {
+    case pepperoni, cheese, bacon
+}
+
+enum MainDish {
+    case pasta(pasta: PastaTaste)
+    case pizza(dough: PizzaDough, topping: PizzaTopping)
+    case chicken(sauce: Bool)
+    case rice
+}
+
+var dinner: MainDish = MainDish.chicken(sauce: true)
+dinner = MainDish.pizza(dough: .original, topping: .pepperoni)
+```
