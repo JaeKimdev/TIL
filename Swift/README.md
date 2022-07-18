@@ -8,7 +8,7 @@
 - [Week1](https://github.com/JaeKimdev/swift-starter-week1/commits/ss_5_menemene) : [STEP 1](https://github.com/yagom-academy/swift-starter-week1/pull/252) - [STEP 2](https://github.com/yagom-academy/swift-starter-week1/pull/281) - [STEP 3](https://github.com/yagom-academy/swift-starter-week1/pull/304)
 - [Week2](https://github.com/JaeKimdev/swift-starter-week2/commits/ss_5_menemene) : [STEP 1](https://github.com/yagom-academy/swift-starter-week2/pull/269) - [STEP 2](https://github.com/yagom-academy/swift-starter-week2/pull/283) - [STEP 3](https://github.com/yagom-academy/swift-starter-week2/pull/297)
 - [Week3](https://github.com/JaeKimdev/swift-starter-week3/tree/ss_5_menemene) : [STEP 1](https://github.com/yagom-academy/swift-starter-week3/pull/117) - [STEP 2](https://github.com/yagom-academy/swift-starter-week3/pull/123)
-- [Week4](https://github.com/JaeKimdev/swift-starter-week4/tree/ss_5_menemene) : [STEP 1](https://github.com/yagom-academy/swift-starter-week4/pull/62) - [STEP 2]
+- [Week4](https://github.com/JaeKimdev/swift-starter-week4/tree/ss_5_menemene) : [STEP 1](https://github.com/yagom-academy/swift-starter-week4/pull/62) - [STEP 2](https://github.com/yagom-academy/swift-starter-week4/pull/66)
 
 ### 📖 Template
 ```
