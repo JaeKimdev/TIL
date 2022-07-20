@@ -4,7 +4,7 @@
 - Human is an animal of oblivion, so I quickly forget what I learned today
 - Can quickly remember the contents of what you wrote just by looking at the title.
 
-#### [🏕 Swift Code Starter Camp(5th)](https://www.yagom-academy.kr/camp/code-starter) : 2022.6.20 - 7.22
+#### [🏕 Swift Code Starter Camp(5th)](https://www.yagom-academy.kr/camp/code-starter) : Swift Foundation Course (2022.6.20 - 7.22)
 - [Week1](https://github.com/JaeKimdev/swift-starter-week1/commits/ss_5_menemene) : [STEP 1](https://github.com/yagom-academy/swift-starter-week1/pull/252) - [STEP 2](https://github.com/yagom-academy/swift-starter-week1/pull/281) - [STEP 3](https://github.com/yagom-academy/swift-starter-week1/pull/304)
 - [Week2](https://github.com/JaeKimdev/swift-starter-week2/commits/ss_5_menemene) : [STEP 1](https://github.com/yagom-academy/swift-starter-week2/pull/269) - [STEP 2](https://github.com/yagom-academy/swift-starter-week2/pull/283) - [STEP 3](https://github.com/yagom-academy/swift-starter-week2/pull/297)
 - [Week3](https://github.com/JaeKimdev/swift-starter-week3/tree/ss_5_menemene) : [STEP 1](https://github.com/yagom-academy/swift-starter-week3/pull/117) - [STEP 2](https://github.com/yagom-academy/swift-starter-week3/pull/123)
@@ -46,3 +46,7 @@
 - [Swift_basic : inheritance](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/15_inheritance.md)
 - [Swift_basic : optional chaining](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/17_optional_chaining.md)
 - [Swift_basic : higher order function](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/23_higher_order_function.md)
+- [Swift_basic : error handling](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/22_error_handling.md)
+- [Swift_basic : protocols](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/20_protocol.md)
+- [Swift_basic : type casting](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/18_type_casting.md)
+- [Swift_basic : extension](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/21_extension.md)
