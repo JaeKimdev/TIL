@@ -23,6 +23,7 @@
 ## Categories
 - [2022-06](#2022-06)
 - [2022-07](#2022-07)
+- [2022-08](#2022-08)
 
 ### 2022-06
 - [Swift_basic : basic](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/01_introduce.md)
@@ -50,3 +51,10 @@
 - [Swift_basic : protocols](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/20_protocol.md)
 - [Swift_basic : type casting](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/18_type_casting.md)
 - [Swift_basic : extension](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/21_extension.md)
+- [Devlog - Optional](https://jaekimdev.github.io/p/%EC%98%B5%EC%85%94%EB%84%90-optional/)
+- [Devlog - String literals](https://jaekimdev.github.io/p/string-literals/)
+- [Devlog - Enum](https://jaekimdev.github.io/p/enum-%EC%97%B4%EA%B1%B0%ED%98%95/)
+
+### 2022-08
+- [Devlog - assert](https://jaekimdev.github.io/p/assert-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/)
+
