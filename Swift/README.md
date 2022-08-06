@@ -11,14 +11,12 @@
 - [Week4](https://github.com/JaeKimdev/swift-starter-week4/tree/ss_5_menemene) : [STEP 1](https://github.com/yagom-academy/swift-starter-week4/pull/62) - [STEP 2](https://github.com/yagom-academy/swift-starter-week4/pull/66)
 - [Week5](https://github.com/JaeKimdev/swift-starter-week5/tree/ss_5_menemene) : [STEP 1](https://github.com/yagom-academy/swift-starter-week5/pull/14) - [STEP 2](https://github.com/yagom-academy/swift-starter-week5/pull/16)
 
-### 📖 Template
-```
-# Learning content
+#### [🏕 Swift Career Starter Camp(7th)](https://www.yagom-academy.kr/camp/career-starter) : Swift BootCamp Course (2022.8.16 - 2023.2.10)
 
-# Problem
+💻 Project
 
-# Problem Solving, Workaround
-```
+| No | Project |Team members| Period | Step 1	| Step 2 | Step 3 | Step 4 | Reviewer |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 
 ## Categories
 - [2022-06](#2022-06)
