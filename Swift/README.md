@@ -17,7 +17,7 @@
 
 | No | Project |Team members| Period | Step 1	| Step 2 | Step 3 | Step 4 | Reviewer |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| 1 | Number BaseBall Game |[@Gundy93](https://github.com/Gundy93)| 22.08.16 ~ 22.08.19 | Step 1 | Step 2 | Step 3 | Step 4 | Reviewer |
+| 1 | ⚾️ Number BaseBall Game |[@Gundy93](https://github.com/Gundy93)| 22.08.16 ~ 22.08.19 | Step 1 | Step 2 | Step 3 | Step 4 | Reviewer |
 
 ## Categories
 - [2022-06](#2022-06)
