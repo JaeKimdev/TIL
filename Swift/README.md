@@ -13,10 +13,11 @@
 
 #### [🏕 Swift Career Starter Camp(7th)](https://www.yagom-academy.kr/camp/career-starter) : Swift BootCamp Course (2022.8.16 - 2023.2.10)
 
-💻 Project
+💻 Project - Pair Programming
 
 | No | Project |Team members| Period | Step 1	| Step 2 | Step 3 | Step 4 | Reviewer |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| 1 | Number BaseBall Game |[@Gundy93](https://github.com/Gundy93)| 22.08.16 ~ 22.08.19 | Step 1 | Step 2 | Step 3 | Step 4 | Reviewer |
 
 ## Categories
 - [2022-06](#2022-06)
@@ -55,4 +56,7 @@
 
 ### 2022-08
 - [Devlog - assert](https://jaekimdev.github.io/p/assert-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/)
-
+- [Devlog - Tuple](https://jaekimdev.github.io/p/tuple-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/)
+- [Devlog - COW(copy on write)](https://jaekimdev.github.io/p/cowcopy-on-write/)
+- [Devlog - Array](https://jaekimdev.github.io/p/array%EC%99%80-%EC%9E%90%EC%A3%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EB%A9%94%EC%84%9C%EB%93%9C/)
+- [Devlog - for in / forEach](https://jaekimdev.github.io/p/for-in-/-foreach-%EB%B9%84%EA%B5%90/)
