@@ -13,11 +13,12 @@
 
 #### [🏕 Swift Career Starter Camp(7th)](https://www.yagom-academy.kr/camp/career-starter) : Swift BootCamp Course (2022.8.16 - 2023.2.10)
 
-💻 Project - Pair Programming
+💻 Project - Pair Programming / Team Project / Code review by field developers
 
 | No | Project |Team members| Period | Step 1	| Step 2 | Step 3 | Step 4 | Reviewer |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| 1 | [⚾️ Number BaseBall Game](https://github.com/Gundy93/ios-number-baseball) |[@Gundy93](https://github.com/Gundy93)| 22.08.16 ~ 22.08.19 | [PR](https://github.com/yagom-academy/ios-number-baseball/pull/118) | [PR](https://github.com/yagom-academy/ios-number-baseball/pull/130) | - | - | [@bradheo65](https://github.com/bradheo65) |
+| 1 | [⚾️ Number BaseBall Game](https://github.com/Gundy93/ios-number-baseball)|[@Gundy93](https://github.com/Gundy93)| 22.08.16~22.08.19<br>(1 Week) | [PR](https://github.com/yagom-academy/ios-number-baseball/pull/118) | [PR](https://github.com/yagom-academy/ios-number-baseball/pull/130) | - | - | [@bradheo65](https://github.com/bradheo65)|
+| 2 | [✌️ Muk-Jji-Ppa Game](https://github.com/JaeKimdev/ios-rock-paper-scissors)<br>[Game rule - wiki](https://en.wikipedia.org/wiki/Muk-jji-ppa)|[@iOS-Woong](https://github.com/iOS-Woong)|22.08.22~22.08.26<br>(1 Week) | [PR](https://github.com/yagom-academy/ios-rock-paper-scissors/pull/160)	| [PR](https://github.com/yagom-academy/ios-rock-paper-scissors/pull/168) | - | - | [@derrickkim0109](https://github.com/derrickkim0109) |
 
 ## Categories
 - [2022-06](#2022-06)
