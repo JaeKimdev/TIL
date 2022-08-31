@@ -25,6 +25,7 @@
 - [2022-06](#2022-06)
 - [2022-07](#2022-07)
 - [2022-08](#2022-08)
+- [2022-09](#2022-09)
 
 ### 2022-06
 - [Swift_basic : basic](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/01_introduce.md)
@@ -62,3 +63,12 @@
 - [Devlog - COW(copy on write)](https://jaekimdev.github.io/p/cowcopy-on-write/)
 - [Devlog - Array](https://jaekimdev.github.io/p/array%EC%99%80-%EC%9E%90%EC%A3%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EB%A9%94%EC%84%9C%EB%93%9C/)
 - [Devlog - for in / forEach](https://jaekimdev.github.io/p/for-in-/-foreach-%EB%B9%84%EA%B5%90/)
+- [Devlog - ==(Equal to Operator)](https://jaekimdev.github.io/p/equal-to-operator/)
+- [Devlog - readLine() 알아보기](https://jaekimdev.github.io/p/readline-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/)
+- [Devlog - ~=(Range Operators)](https://jaekimdev.github.io/p/%EB%B2%94%EC%9C%84-%EC%97%B0%EC%82%B0%EC%9E%90/)
+- [Devlog - @discardableResult](https://jaekimdev.github.io/p/attributes-discardableresult%EB%9E%80/)
+- [Devlog - Swift에서의 nameSpace](https://jaekimdev.github.io/p/swift%EC%97%90%EC%84%9C%EC%9D%98-namespace/)
+- [Devlog - Singleton Pattern](https://jaekimdev.github.io/p/singleton-pattern/)
+- [Devlog - Cocoa Touch Framework](https://jaekimdev.github.io/p/cocoa-touch-framework/)
+
+### 2022-09
