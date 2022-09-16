@@ -13,7 +13,7 @@
 
 #### [🏕 Swift Career Starter Camp(7th)](https://www.yagom-academy.kr/camp/career-starter) : Swift BootCamp Course (2022.8.16 - 2023.2.10)
 
-💻 Project - Pair Programming / Team Project / Code review by field developers
+💻 Project - Pair Programming / Code review by field developers
 
 | No | Project |Team members| Period | Step 1	| Step 2 | Step 3 | Step 4 | Reviewer |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
