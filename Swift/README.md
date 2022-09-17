@@ -72,3 +72,14 @@
 - [Devlog - Cocoa Touch Framework](https://jaekimdev.github.io/p/cocoa-touch-framework/)
 
 ### 2022-09
+- [Devlog - KVO(Key-value observing)](https://jaekimdev.github.io/p/kvokey-value-observing/)
+- [Devlog - Notification, NotificationCenter](https://jaekimdev.github.io/p/notification-notificationcenter/)  
+- [Devlog - Alert, ActionSheet](https://jaekimdev.github.io/p/alert-actionsheet/)  
+- [Devlog - UIViewController 생명주기(lifecycle methods - View State Method)](https://jaekimdev.github.io/p/uiviewcontroller-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0lifecycle-methods-view-state-method/)
+- [Devlog - instantiateViewController / performSegue 화면 전환 방법](https://jaekimdev.github.io/p/instantiateviewcontroller-/-performsegue-%ED%99%94%EB%A9%B4-%EC%A0%84%ED%99%98-%EB%B0%A9%EB%B2%95/)
+- [Devlog - Auto Layout(1)](https://jaekimdev.github.io/p/auto-layout1/)
+- [Devlog - Protocols](https://jaekimdev.github.io/p/protocols/)
+- [Devlog - typealias](https://jaekimdev.github.io/p/typealias/)
+
+---------
+[🔝 Back to Top](#today-i-learnedswift)
