@@ -19,7 +19,8 @@
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | 1 | [⚾️ Number BaseBall Game](https://github.com/Gundy93/ios-number-baseball)|[@Gundy93](https://github.com/Gundy93)| 22.08.16~22.08.19<br>(1 Week) | [PR](https://github.com/yagom-academy/ios-number-baseball/pull/118) | [PR](https://github.com/yagom-academy/ios-number-baseball/pull/130) | - | - | [@bradheo65](https://github.com/bradheo65)|
 | 2 | [✌️ Muk-Jji-Ppa Game](https://github.com/JaeKimdev/ios-rock-paper-scissors)<br>[Game rule - wiki](https://en.wikipedia.org/wiki/Muk-jji-ppa)|[@iOS-Woong](https://github.com/iOS-Woong)|22.08.22~22.08.26<br>(1 Week) | [PR](https://github.com/yagom-academy/ios-rock-paper-scissors/pull/160)	| [PR](https://github.com/yagom-academy/ios-rock-paper-scissors/pull/168) | - | - | [@derrickkim0109](https://github.com/derrickkim0109) |
-| 3 | [🍹 Juice Maker](https://github.com/FlameYG/ios-juice-maker) |[@FlameYG](https://github.com/FlameYG)| 22.08.29~22.09.09<br>(3 Week) | [PR](https://github.com/yagom-academy/ios-juice-maker/pull/255)	| [PR](https://github.com/yagom-academy/ios-juice-maker/pull/261) | [PR](https://github.com/yagom-academy/ios-juice-maker/pull/273) | - | [@SungPyo](https://github.com/SungPyo) |
+| 3 | [🍹 Juice Maker](https://github.com/FlameYG/ios-juice-maker) |[@FlameYG](https://github.com/FlameYG)| 22.08.29~22.09.16<br>(3 Week) | [PR](https://github.com/yagom-academy/ios-juice-maker/pull/255)	| [PR](https://github.com/yagom-academy/ios-juice-maker/pull/261) | [PR](https://github.com/yagom-academy/ios-juice-maker/pull/273) | - | [@SungPyo](https://github.com/SungPyo) |
+| 4 | [🧮 Calculator](https://github.com/JaeKimdev/ios-calculator-app) | Personal project | 22.09.19~22.09.30<br>(2 Week) | [PR](https://github.com/yagom-academy/ios-calculator-app/pull/314)	| [PR](https://github.com/yagom-academy/ios-calculator-app/pull/341) | - | - | [@stevenkim18](https://github.com/stevenkim18) |
 
 ## Categories
 - [2022-06](#2022-06)
