@@ -81,6 +81,8 @@
 - [Devlog - Auto Layout(1)](https://jaekimdev.github.io/p/auto-layout1/)
 - [Devlog - Protocols](https://jaekimdev.github.io/p/protocols/)
 - [Devlog - typealias](https://jaekimdev.github.io/p/typealias/)
+- [Devlog - Auto Layout(2)](https://jaekimdev.github.io/p/auto-layout2/)
+- [Devlog - LLDB(Low-Level-Debugger)](https://jaekimdev.github.io/p/lldblow-level-debugger/)
 
 ---------
 [🔝 Back to Top](#today-i-learnedswift)
