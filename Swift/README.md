@@ -28,6 +28,7 @@
 - [2022-07](#2022-07)
 - [2022-08](#2022-08)
 - [2022-09](#2022-09)
+- [2022-10](#2022-10)
 
 ### 2022-06
 - [Swift_basic : basic](https://github.com/JaeKimdev/TIL/blob/main/Swift/swift_basic/01_introduce.md)
@@ -85,6 +86,16 @@
 - [Devlog - Auto Layout(2)](https://jaekimdev.github.io/p/auto-layout2/)
 - [Devlog - LLDB(Low-Level-Debugger)](https://jaekimdev.github.io/p/lldblow-level-debugger/)
 - [Devlog - Auto Layout(3)](https://jaekimdev.github.io/p/auto-layout3-stack-view/)
+
+### 2022-10
+- [Devlog - WWDC21 - ARC in Swift: Basics and beyond](https://jaekimdev.github.io/p/wwdc21-arc-in-swift-basics-and-beyond/)
+- [Devlog - NumberFormatter](https://jaekimdev.github.io/p/numberformatter/)
+- [Devlog - Auto Layout(4) - Debugging Auto Layout](https://jaekimdev.github.io/p/auto-layout4-debugging-auto-layout/)
+- [Devlog - Auto Layout(5) - Constraints with Code](https://jaekimdev.github.io/p/auto-layout5-constraints-with-code/)
+- [Devlog - Auto Layout(6) - Dynamic StackView](https://jaekimdev.github.io/p/auto-layout6-dynamic-stackview/)
+- [Devlog - Auto Layout(7) - Size Class / Safe Area / Layout Margins](https://jaekimdev.github.io/p/auto-layout7-size-class-/-safe-area-/-layout-margins/)
+- [Devlog - Auto Layout(8) - Working with Scroll Views](https://jaekimdev.github.io/p/auto-layout8-working-with-scroll-views/)
+- [Devlog - Table View](https://jaekimdev.github.io/p/table-view/)
 
 ---------
 [🔝 Back to Top](#today-i-learnedswift)
