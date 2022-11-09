@@ -1,3 +1,3 @@
-|Using<br>Interaface Builder|Using Code|
-|:--:|:--:|
-|<img width="405" alt="스크린샷 2022-11-08 오전 10 41 17" src="https://user-images.githubusercontent.com/84453688/200462376-6ac3ec07-71f5-4b5b-9349-0c7a1e59f50e.png">|<img width="405" alt="스크린샷 2022-11-08 오전 10 43 21" src="https://user-images.githubusercontent.com/84453688/200462385-d581af45-c589-4f56-a5ba-c1599673cd3a.png">|
+|Using<br>Interaface Builder|Using Code|Using<br>Interaface Builder|Using Code|
+|:--:|:--:|:--:|:--:|
+|<img width="405" alt="스크린샷 2022-11-08 오전 10 41 17" src="https://user-images.githubusercontent.com/84453688/200462376-6ac3ec07-71f5-4b5b-9349-0c7a1e59f50e.png">|<img width="405" alt="스크린샷 2022-11-08 오전 10 43 21" src="https://user-images.githubusercontent.com/84453688/200462385-d581af45-c589-4f56-a5ba-c1599673cd3a.png">[Link](https://github.com/JaeKimdev/TIL/blob/main/Swift/Create%20a%20screen%20with%20code(1)/MyFirstApp/ViewController.swift)|<img width="405" alt="aa" src="https://user-images.githubusercontent.com/84453688/200795703-3f953021-45ed-4f6a-ae41-1c89b75ed32f.png">|<img width="405" alt="bb" src="https://user-images.githubusercontent.com/84453688/200795798-c1c5afda-8279-454a-9b27-184d00a610ba.png">[Link](https://github.com/JaeKimdev/TIL/blob/main/Swift/Create%20a%20screen%20with%20code(1)/bb/bb/ViewController.swift)|
