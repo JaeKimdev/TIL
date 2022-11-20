@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="segmentPractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="bT7-pc-skG">
+                                <rect key="frame" x="103.5" y="44" width="207" height="32"/>
+                                <segments>
+                                    <segment title="LIST"/>
+                                    <segment title="GRID"/>
+                                </segments>
+                                <color key="selectedSegmentTintColor" name="AccentColor"/>
+                                <connections>
+                                    <action selector="switchView:" destination="BYZ-38-t0r" eventType="valueChanged" id="51Q-8f-7MB"/>
+                                </connections>
+                            </segmentedControl>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mZW-0a-aUa">
+                                <rect key="frame" x="0.0" y="91" width="414" height="771"/>
+                                <connections>
+                                    <segue destination="nc8-9W-eMD" kind="embed" id="0f6-5u-byK"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qag-FL-Elh">
+                                <rect key="frame" x="0.0" y="91" width="414" height="771"/>
+                                <connections>
+                                    <segue destination="UPg-yT-ihx" kind="embed" id="peS-yA-Nzy"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mZW-0a-aUa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8XX-fc-UdY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qag-FL-Elh" secondAttribute="trailing" id="E0n-cb-7by"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qag-FL-Elh" secondAttribute="bottom" id="K5N-Bl-QTs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mZW-0a-aUa" secondAttribute="bottom" id="MpU-XU-5zw"/>
+                            <constraint firstItem="bT7-pc-skG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="YSu-Up-78E"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mZW-0a-aUa" secondAttribute="trailing" id="b1T-6t-VVo"/>
+                            <constraint firstItem="bT7-pc-skG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="geJ-3Z-dRP"/>
+                            <constraint firstItem="qag-FL-Elh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ksr-TZ-vZs"/>
+                            <constraint firstItem="bT7-pc-skG" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="kym-Zs-wBz"/>
+                            <constraint firstItem="mZW-0a-aUa" firstAttribute="top" secondItem="bT7-pc-skG" secondAttribute="bottom" constant="16" id="sqa-K1-j48"/>
+                            <constraint firstItem="qag-FL-Elh" firstAttribute="top" secondItem="bT7-pc-skG" secondAttribute="bottom" constant="16" id="yRv-dM-E03"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="firstView" destination="mZW-0a-aUa" id="rnk-Ck-BWP"/>
+                        <outlet property="secondView" destination="qag-FL-Elh" id="R7s-15-ZWs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="123"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="U7a-pF-7Qu">
+            <objects>
+                <viewController id="nc8-9W-eMD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="22V-dh-1xe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="771"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="linkColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YVG-Cq-T9g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="783" y="-31"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="GKT-JB-ox3">
+            <objects>
+                <viewController id="UPg-yT-ihx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LQJ-4L-hDm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="771"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O8B-Pz-Mxb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="783" y="534"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
